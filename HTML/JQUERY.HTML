@@ -1,0 +1,69 @@
+</html>
+<HEAD><H1>ABOUT ME</H1>
+<TITLE>WELCOME</TITLE>
+<LINK REL="STYLESHEET" TYPE="TEXT/CSS" HREF="new.CSS">
+    <SCRIPT type="TEXT/JAVASCRIPT" SRC="https://code.jquery.com/jquery-3.6.0.min.js"></SCRIPT>
+
+</HEAD>
+</HTML>
+<BODY>
+    <script>
+        $("h1").css("background","blue")
+        $("h1").css("border","3px solid red")
+    </script>
+    <ol>
+        <li>pen<a href="google.com">Google</a></li>
+        <li>pencil</li>
+        <li>sharpner</li>
+         <li>eraser</li>
+    
+    </ol>
+    <H1>HI</H1>
+    <P>THIS IS PAVAN</P>
+    <UL id="pavan">
+        <LI>YASH</LI>
+        <LI>MOHAN</LI>
+        <LI>SAIDA</LI>
+    </UL>
+    <script>
+        let example= {
+            color:"blue",
+            background:"red",
+            border:"3px solid black"
+        }
+    </script>
+<div class="kids">
+    <img src="kid/shinchan.jpg">
+    <img src="kid/supersaiyyan.png">
+</div>
+
+<button id="hide">
+    hide
+</button>
+<button id="show">show</button>
+<input id="date" type="text">
+<script>
+    $(document).ready(function(){
+            $("#hide").click(function(){
+                $("img").fadeOut("slow");
+    })
+    })
+    $(document).ready(function(){
+            $("#show").click(function(){
+                $("img").toggle("slow");
+    })
+    })
+    $("#date").datepicker();
+</script>
+<style>
+    .example{
+        color:blueviolet;
+    }
+    
+</style>
+
+
+
+
+
+</BODY>

@@ -1,0 +1,90 @@
+<!DOCUMENT HTML>
+<HEAD>
+<TITLE>TRY</TITLE>
+		<SCRIPT type="TEXT/JAVASCRIPT" SRC="https://code.jquery.com/jquery-3.6.0.min.js"></SCRIPT>
+</HEAD>
+<BODY ID="X">
+	<OL TYPE=I>
+	<LI>HEAD</LI>
+	<OL TYPE=1>
+			<LI>SUBHEAD</LI>
+			<LI>ANOTHER ONE</LI>
+			<OL TYPE=A>	
+				<LI>ONE</LI>			
+				<LI>TWO</LI>
+				<LI>THREE</LI>
+			</OL>
+		<LI>ANOTHER ANOTHER ONE..</LI>
+		</OL>
+		<LI>ANOTHER HEAD</LI>
+	</OL>
+	<STYLE>
+		#X{
+			background-image: URL("C:\Users\pavan\OneDrive\Pictures\x.jpg");
+			border:3px solid black;
+			padding: 1% 0% 0% 2%;
+		}
+		IMG{
+			WIDTH:200PX;
+			HEIGHT:200PX;
+		}
+	</STYLE>
+	<TABLE BORDER="3PX SOLID BLACK" CELLPADDING="12PX" CELLSPACING="5PX" >
+		<TR >
+			<TH>PERSON1</TH>
+			<TH>PERSON2</TH>
+		</TR>
+		<TR>
+			<TD>LIKES CRICKET</TD>
+			<TD>LIKES FOOTBALL</TD>
+		</TR>
+		<TR>
+			<TD COLspan="2" ALIGN="CENTER">LIKES BIRIYANI</TD>
+
+			<TH COLspan="2" ALIGN="CENTER">DISLIKES</TH>
+		</TR>
+		<TR>
+			<TD><IMG SRC="C:\Users\pavan\OneDrive\Pictures\x.jpg" ></TD>
+			<TD><IMG SRC="C:\Users\pavan\OneDrive\Desktop\kid\shinchan.jpg" ></TD>
+				</TR>
+	</TABLE>
+<form>
+	<H1><CENTER>FORM</H1>
+		NAME:
+		<INPUT TYPE="TEXT" NAME="NAME"><BR>
+		PASSWORD:
+		<INPUT TYPE="PASSWORD" NAME="PWD"><BR>
+		GENDER:M
+		<INPUT TYPE="RADIO" NAME="M" VALUE="M">
+		F
+		<INPUT TYPE="RADIO" NAME="F" VALUE="F"><BR>
+		MARITAL STATUS:
+		<SELECT >
+			<option>MARRIED</option>
+			<option>UNMNARRIED</optio>
+		</SELECT>
+		<P>PLEASE GIVE COMMENTS HERE</P>
+		<textarea ROWS="10" cols="20"></textarea>
+		<input type="submit" value="proceed" validate()>
+		<input type="reset" value="clear">
+
+</form>
+<div id="pavan">
+<img src="C:\Users\pavan\OneDrive\Desktop\kid\shinchan.jpg"></div>
+
+<input id="date" >
+<script>
+$(documnet).ready(function(){
+	$("#pavan").draggable();
+});
+$(documnet).ready(function(){
+	$("#h1").onclick(function(){
+		this.hide();
+	})
+});
+
+	$("#date").datepicker();
+
+</script>
+
+</BODY>

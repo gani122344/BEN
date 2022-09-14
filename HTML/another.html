@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        LETS ROCK
+    </title>
+    <h1>HELLO WORLD!</h1>
+    <SCRIPT type="TEXT/JAVASCRIPT" SRC="https://code.jquery.com/jquery-3.6.0.min.js"></SCRIPT>
+
+<BODY id="y">
+    <div id="xx"><img src="D:\HTML\kid\ninja.jpg" draggable="true"></div>
+    <style>
+        img{
+        height:300px;
+        width:250px;
+        }
+        .new{
+            border:2px solid blue;
+        }
+        #xx{
+          background:rgb(130, 216, 238);  
+        }
+    </style>
+    <script>     
+    $(document).ready(function() {
+        $("button").click(function(){
+            $("#y").css("background","blue");
+        });
+    });
+    $(document).ready(function() {
+        $("#s").click(function(){
+            $("#y").css("background","red");
+        });
+    });
+    $(document).ready(function() {
+        $("img").click(function(){
+            this.hide();
+        });
+    });
+    $(document).ready(function() {
+        $("#r").click(function(){
+            $("#y").css("background","yellow");
+        });
+    });
+ 
+        $(function() {
+        $("#xx").draggable();
+        });
+    </script>
+     <button>button</button>
+     <button id="s">enter</button>
+     <button id="r">click</button>
+</BODY>
+</html>
